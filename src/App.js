@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import HomePage from './homepage';
+
 class App extends Component {
   render() {
-    return <div className='App'>Hola Mundo!</div>;
+    return <div className='App'>
+      <HomePage />
+    </div>;
   }
 }
 
